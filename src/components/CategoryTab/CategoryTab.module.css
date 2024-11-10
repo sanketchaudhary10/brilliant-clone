@@ -1,0 +1,9 @@
+/* src/components/CategoryTab.css */
+.category-tab {
+    @apply flex flex-col items-center text-sm;
+  }
+  
+.category-icon {
+@apply mb-2 w-10 h-10; /* Customize as needed */
+}
+  
