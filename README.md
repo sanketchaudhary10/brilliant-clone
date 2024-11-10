@@ -12,20 +12,20 @@ This project is an educational platform, developed with a focus on frontend and 
 - Local Development Instructions
 - Time Spent
 
-
 **Features Implemented**: 
 
-- User Authentication:
-- - Login and signup functionality using Firebase Authentication.
-- - Google sign-in integration for a seamless login experience.
+## User Authentication:
+- Login and signup functionality using Firebase Authentication.
+- Google sign-in integration for a seamless login experience.
 
-Course Dashboard:
+## Course Dashboard:
 - Course listing with categories and new-course filters.
 - Search functionality to find courses by title.
 
-Responsive Design:
+## Responsive Design:
 - Built with responsive styling to provide a consistent experience across devices.
-- Navigation and Footer:
+
+## Navigation and Footer:
 - Structured navigation bar and footer components for consistent UI.
 
 ## Technical Decisions and Trade-offs
