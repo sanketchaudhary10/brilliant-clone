@@ -1,5 +1,3 @@
-/* src/pages/Authentication/loginpage.module.css */
-
 .authPage {
     @apply flex items-center justify-center h-screen bg-gray-100;
   }

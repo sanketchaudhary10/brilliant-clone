@@ -1,19 +1,19 @@
+// src/firebaseConfig.ts
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 // import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAw-IETBxVf966RSips_jYw6MqeMdsKkT0",
-  authDomain: "brilliant-clone-eb227.firebaseapp.com",
-  projectId: "brilliant-clone-eb227",
-  storageBucket: "brilliant-clone-eb227.firebasestorage.app",
-  messagingSenderId: "889170124753",
-  appId: "1:889170124753:web:6a015656796203cfd3caf0",
-  measurementId: "G-VTSL7CJBHV"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
-

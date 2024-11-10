@@ -1,0 +1,10 @@
+.main-container {
+    width: 100vw;  
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    background-color: white;
+}

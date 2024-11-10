@@ -1,4 +1,3 @@
-// src/pages/LandingPage.tsx
 import React from 'react';
 import NavigationHeader from '../../../src/components/NavigationHeader/NavigationHeader';
 import Footer from '../../../src/components/Footer/footer';
@@ -8,10 +7,10 @@ import { Link } from 'react-router-dom';
 const LandingPage: React.FC = () => {
   return (
     <div className={styles['landing-page']}>
-         {/* Fixed Navigation Header */}
+         
         <NavigationHeader />
         <div className={styles['hero-container']}>
-            {/* Hero Section */}
+            
             <section className={`${styles['hero-section']}`}>
                 <div className={`${styles['hero-text']} max-w-lg`}>
                     <h2 className={`${styles.title} text-5xl font-bold text-black`}>
@@ -32,7 +31,7 @@ const LandingPage: React.FC = () => {
                 </div>
             </section>
 
-            {/* Category Section */}
+            
             <section className={`${styles['category-section']} mt-10 px-6 max-w-5xl mx-auto text-black`}>
                 <div className={styles['category-tab']}>
                     <img src="../../../src/assets/icons/math.jpg" alt="Math" className={styles['category-icon']} />
@@ -56,7 +55,7 @@ const LandingPage: React.FC = () => {
                 </div>
             </section>
 
-            {/* Social Proof Section */}
+            
             <section className={`${styles['social-proof-section']} text-center mt-16 px-6`}>
                 <p className="text-lg font-medium">Join over 10 million people learning on Brilliant</p>
                 <div className="flex justify-center items-center gap-6 mt-4">

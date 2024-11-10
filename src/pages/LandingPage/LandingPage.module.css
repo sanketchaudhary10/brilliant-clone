@@ -1,6 +1,5 @@
-/* src/pages/LandingPage.module.css */
 .landing-page {
-    width: 100vw;  /* Use viewport width */
+    width: 100vw;  
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -21,7 +20,7 @@
     box-sizing: border-box;
   }
   
-  /* Hero Section */
+
   .hero-section {
     display: flex;
     align-items: center;
@@ -66,12 +65,12 @@
     justify-content: center;
   }
   
-  /* Button Styling */
+  
   .get-started-button {
-    background-color: #2ECC71;  /* Bright green color */
+    background-color: #2ECC71;  
     color: white;
     padding: 12px 24px;
-    border-radius: 9999px; /* Full rounded corners */
+    border-radius: 9999px; 
     font-size: 16px;
     font-weight: 500;
     border: none;
@@ -84,7 +83,7 @@
     background-color: #218838;
   }
   
-  /* Category Section */
+  
   .category-section {
     display: flex;
     justify-content: space-around;
